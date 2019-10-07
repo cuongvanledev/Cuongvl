@@ -6,18 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome</title>
         <script src="./js/vue/vue.js"></script>
+        <link href="./js/cover.js" rel="stylesheet">
     </head>
     <body>
-        <div id="cover" style="background-color: aquamarine">
-            <amp-story standalone
-            title="Joy of Pets"
-            publisher="AMP tutorials"
-            publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
-            <!-- poster-portrait-src="assets/cover.jpg"> -->
-            <amp-story-page id="cover">
-            </amp-story-page>
-            </amp-story>
-        </div>
+        <section v-bind="cover-info-user"></section>
         
 
     </body>
