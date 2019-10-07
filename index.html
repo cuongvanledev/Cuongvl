@@ -5,10 +5,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome</title>
+        <script src="./js/vue/vue.js"></script>
     </head>
     <body>
-        <script src="./js/vue/vue.js"></script>
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
+        <div id="cover" style="background-color: aquamarine">
+            <amp-story standalone
+            title="Joy of Pets"
+            publisher="AMP tutorials"
+            publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
+            <!-- poster-portrait-src="assets/cover.jpg"> -->
+            <amp-story-page id="cover">
+            </amp-story-page>
+            </amp-story>
+        </div>
+        
+
     </body>
 </html>
